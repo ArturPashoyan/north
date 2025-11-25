@@ -232,10 +232,6 @@ footer:hover {
   margin-top: 10px;
   border-radius: 20px;
 }
-.end-header .leg-box .leg-one a:hover {
-  text-decoration: underline;
-  color: var(--foni-guyn);
-}
 .end-header .leg-box .leg-two {
   display: flex;
   flex-direction: column;
