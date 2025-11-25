@@ -273,6 +273,7 @@ footer:hover {
   transition: 1s;
 }
 .end-header .leg-box button:hover {
-  background-color: #161616;
+  background-color: #F2F2ED;
   color: #700014;
+  border: 2px solid #700014;
 }/*# sourceMappingURL=style.css.map */
