@@ -243,10 +243,11 @@ footer:hover {
 }
 
 .end-header{
-    height: 700px;
+    height: 600px;
+    margin-top: 30px;
 .leg-box{
     width: 90%;
-    border: 2px solid var(--accent);
+    // border: 2px solid var(--accent);
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -261,7 +262,7 @@ footer:hover {
                 text-decoration: none;
                 color: var(--black-color);
                 margin-bottom: 5px;
-                font-size: 28px;
+                font-size: 18px;
                 transition: color 0.3s ease;
                   
 
