@@ -218,4 +218,130 @@ footer .footer-flex .foot-contacts p img, footer .footer-flex .foot-contacts a i
   .products-grid {
     grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
   }
+}
+/* ==============================
+   CONTACT PAGE / END-CONTACT
+============================== */
+.end-header {
+  padding: 60px 0;
+  background: #f2f1ed;
+}
+
+#header-slide .leg-box {
+  display: flex;
+  gap: 30px;
+  background: #fff;
+  padding: 40px;
+  border-radius: 18px;
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.08);
+}
+
+/* LEFT SIDE */
+.leg-one {
+  flex: 1;
+}
+.leg-one p {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 8px 0;
+  color: #333;
+  font-size: 15px;
+}
+.leg-one p img {
+  width: 22px;
+}
+.leg-one p a {
+  color: #333;
+  text-decoration: none;
+}
+.leg-one p a:hover {
+  color: #700014;
+}
+.leg-one iframe {
+  margin-top: 15px;
+  width: 100%;
+  height: 300px;
+  border: none;
+  border-radius: 16px;
+}
+
+/* RIGHT SIDE (FORM) */
+.leg-two {
+  flex: 1;
+}
+
+.leg-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  background: #f2f1ed;
+  padding: 30px;
+  border-radius: 14px;
+}
+.leg-form h2 {
+  text-align: center;
+  margin-bottom: 10px;
+  color: #333;
+  font-weight: bold;
+}
+.leg-form label {
+  font-size: 14px;
+  color: #444;
+}
+.leg-form input,
+.leg-form textarea {
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  outline: none;
+  font-size: 14px;
+  transition: 0.25s;
+}
+.leg-form input:focus,
+.leg-form textarea:focus {
+  border-color: #700014;
+  box-shadow: 0 0 0 2px rgba(112, 0, 20, 0.2);
+}
+.leg-form textarea {
+  min-height: 120px;
+  resize: none;
+}
+.leg-form button {
+  margin-top: 8px;
+  padding: 12px;
+  border-radius: 30px;
+  border: none;
+  background: #700014;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.leg-form button:hover {
+  background: #8f001b;
+  transform: translateY(-2px);
+}
+.leg-form button:active {
+  transform: scale(0.97);
+}
+
+/* ==============================
+        RESPONSIVE
+============================== */
+@media (max-width: 992px) {
+  #header-slide .leg-box {
+    flex-direction: column;
+  }
+  .leg-one iframe {
+    height: 240px;
+  }
+}
+@media (max-width: 520px) {
+  #header-slide .leg-box {
+    padding: 25px;
+  }
+  .leg-form {
+    padding: 20px;
+  }
 }/*# sourceMappingURL=style.css.map */
