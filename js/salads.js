@@ -1,16 +1,16 @@
-
+// salads.js
 document.addEventListener("DOMContentLoaded", () => {
-  fetch("./json/salads.json") 
+  fetch("./json/salads.json") // JSON ֆայլի անունը
     .then(response => response.json())
     .then(data => {
-      renderProducts("salads-grid", data["Աղցաններ"]);
+      renderProducts("salads-grid", data["Աղցաններ"]); // JSON-ում հիմնական բանալին
     })
     .catch(error => console.error("Error loading JSON:", error));
 });
 
 function renderProducts(containerId, products) {
   const container = document.getElementById(containerId);
-  container.innerHTML = ""; 
+  container.innerHTML = ""; // մաքրում նախկինը
 
   products.forEach(product => {
     const card = document.createElement("div");
