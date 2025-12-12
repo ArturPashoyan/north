@@ -12,6 +12,7 @@
     { "id": 160, "name": "Վանիլային մուսս", "price": 850, "description": "Վանիլային կրեմային դեսերտ", "image": "vanilla_mousse.jpg" },
     { "id": 161, "name": "Կարամելային պուդինգ", "price": 800, "description": "Տաք կամ սառը կարամելային պուդինգ", "image": "caramel_pudding.jpg" },
     { "id": 162, "name": "Շոկոլադե կրեմ", "price": 900, "description": "Շոկոլադե կրեմային դեսերտ", "image": "chocolate_cream.jpg" },
+    { "id": 62, "name": "Տաք շոկոլադային պուդինգ", "price": 1200, "description": "Շոկոլադային տաք պուդինգ", "image": "chocolate_pudding.jpg" },
     { "id": 163, "name": "Մրգային սալսա", "price": 700, "description": "Թարմ պտուղների խառնուրդ", "image": "fruit_salsa.jpg" },
     { "id": 164, "name": "Մարցիպան", "price": 600, "description": "Շաքարով և նուշով պատրաստված", "image": "marzipan.jpg" },
     { "id": 165, "name": "Բանանի շոկոլադե դեսերտ", "price": 950, "description": "Բանանի և շոկոլադի համադրություն", "image": "banana_choco_dessert.jpg" },
