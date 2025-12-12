@@ -1,18 +1,17 @@
-// Ստուգում ենք, որ DOM պատրաստ է
+
 document.addEventListener("DOMContentLoaded", () => {
   fetch("json/desserts.json")
     .then(response => response.json())
     .then(data => {
-      renderProducts("desserts-grid", data["Քաղցրավենիք"]); // <-- սա ճիշտն է
+      renderProducts("desserts-grid", data["Քաղցրավենիք"]); 
     })
     .catch(error => console.error("Error loading JSON:", error));
 });
 
-// Ֆունկցիա, որ լրացնում է products-grid-ը
+
 function renderProducts(containerId, products) {
   const container = document.getElementById(containerId);
-  container.innerHTML = ""; // մաքրում նախկինը
-
+  container.innerHTML = "";
   products.forEach(product => {
     const productCard = document.createElement("div");
     productCard.classList.add("product-card");

@@ -1,16 +1,16 @@
-// snacks.js
+
 document.addEventListener("DOMContentLoaded", () => {
-  fetch("./json/snacks.json") // JSON ֆայլի անունը
+  fetch("./json/snacks.json") 
     .then(response => response.json())
     .then(data => {
-      renderProducts("snacks-grid", data["Խորտիկներ"]); // JSON-ում հիմնական բանալին
+      renderProducts("snacks-grid", data["Խորտիկներ"]); 
     })
     .catch(error => console.error("Error loading JSON:", error));
 });
 
 function renderProducts(containerId, products) {
   const container = document.getElementById(containerId);
-  container.innerHTML = ""; // մաքրում նախկինը
+  container.innerHTML = ""; 
 
   products.forEach(product => {
     const card = document.createElement("div");

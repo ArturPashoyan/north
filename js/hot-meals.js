@@ -1,9 +1,9 @@
-// hot-meals.js
+
 document.addEventListener("DOMContentLoaded", () => {
-  fetch("./json/hot-meals.json") // JSON ֆայլի անունը
+  fetch("./json/hot-meals.json") 
     .then(response => response.json())
     .then(data => {
-      // JSON-ում հիմնական բանալին՝ "Տաք ուտեստներ"
+      
       renderProducts("hot-meals-grid", data["Տաքուտեստներ"]);
     })
     .catch(error => console.error("Error loading JSON:", error));
@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 function renderProducts(containerId, products) {
   const container = document.getElementById(containerId);
-  container.innerHTML = ""; // մաքրում նախկինը
+  container.innerHTML = "";
 
   products.forEach(product => {
     const card = document.createElement("div");

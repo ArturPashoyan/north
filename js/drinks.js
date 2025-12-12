@@ -1,16 +1,16 @@
-// drinks.js
+
 document.addEventListener("DOMContentLoaded", () => {
-  fetch("./json/drinks.json") // JSON ֆայլի անունը
+  fetch("./json/drinks.json") 
     .then(response => response.json())
     .then(data => {
-      renderProducts("drinks-grid", data["Ըմպելիքներ"]); // օգտագործվում է JSON-ի հիմնական բանալին
+      renderProducts("drinks-grid", data["Ըմպելիքներ"]); 
     })
     .catch(error => console.error("Error loading JSON:", error));
 });
 
 function renderProducts(containerId, products) {
   const container = document.getElementById(containerId);
-  container.innerHTML = ""; // մաքրում նախկինը
+  container.innerHTML = ""; 
 
   products.forEach(product => {
     const card = document.createElement("div");
