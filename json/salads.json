@@ -1,7 +1,7 @@
 {
 "Աղցաններ": [
-    { "id": 101, "name": "Կեսար աղցան", "price": 1500, "description": "Կեսար սալատ հավի կտորներով", "image": "caesar_salad.jpg" },
-    { "id": 102, "name": "Հունական աղցան", "price": 1600, "description": "Հունական սալատ պանիրով և ձիթապտղով", "image": "greek_salad.jpg" },
+    { "id": 101, "name": "Կեսար աղցան", "price": 1500, "description": "Կեսար սալատ հավի կտորներով", "image": "https://media.istockphoto.com/id/1337799015/photo/caesar-salad.jpg?s=612x612&w=0&k=20&c=ensriYgRJ9SJctMu3kl7rKn1RPEEBikbkmnAy0JfbSg=" },
+    { "id": 102, "name": "Հունական աղցան", "price": 1600, "description": "Հունական սալատ պանիրով և ձիթապտղով", "image": "https://media.istockphoto.com/id/1461256163/photo/feta-cheese-salad-on-wooden-table.jpg?s=612x612&w=0&k=20&c=JISWAr9aTfUdLkgoR2rSWQN-ZzfQvOrhG9stauCUqSE=" },
     { "id": 103, "name": "Վեգան աղցան", "price": 1400, "description": "Բանջարեղենի աղցան սոուսով", "image": "vegan_salad.jpg" },
     { "id": 104, "name": "Խնձորով աղցան", "price": 1500, "description": "Հյութալի խնձորով և սալորաչիր աղցան", "image": "apple_salad.jpg" },
     { "id": 105, "name": "Պարմեզան աղցան", "price": 1600, "description": "Բանջարեղենի և պարմեզանի աղցան", "image": "parmesan_salad.jpg" },
