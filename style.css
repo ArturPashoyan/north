@@ -344,4 +344,241 @@ footer .footer-flex .foot-contacts p img, footer .footer-flex .foot-contacts a i
   .leg-form {
     padding: 20px;
   }
+}
+.abHaed {
+  background: linear-gradient(135deg, #2c1b12, #4a2f23);
+  padding: 80px 20px;
+  color: #fff;
+  font-family: "Segoe UI", sans-serif;
+}
+.abHaed .glab {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+.abHaed .glab .abone {
+  flex: 1;
+}
+.abHaed .glab .abone p {
+  font-size: 18px;
+  line-height: 1.8;
+  color: #f5f0eb;
+  background: rgba(255, 255, 255, 0.05);
+  padding: 30px;
+  border-left: 4px solid #c69c6d;
+  border-radius: 8px;
+}
+.abHaed .glab .abtwo {
+  flex: 1;
+  position: relative;
+}
+.abHaed .glab .abtwo img {
+  width: 100%;
+  height: 420px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 20px;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+}
+.abHaed .glab .abtwo::after {
+  content: "";
+  position: absolute;
+  inset: 15px;
+  border: 2px solid rgba(255, 255, 255, 0.15);
+  border-radius: 20px;
+  pointer-events: none;
+}
+@media (max-width: 900px) {
+  .abHaed .glab {
+    flex-direction: column;
+    gap: 40px;
+  }
+  .abHaed .glab .abtwo img {
+    height: 300px;
+  }
+  .abHaed .glab .abone p {
+    font-size: 16px;
+  }
+}
+
+.abHaed {
+  position: relative;
+  overflow: hidden;
+}
+.abHaed .coffee-beans {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+.abHaed .coffee-beans span {
+  position: absolute;
+  width: 22px;
+  height: 32px;
+  background: rgba(198, 156, 109, 0.35);
+  border-radius: 50% 50% 45% 45%;
+  animation: floatBeans 12s linear infinite;
+  opacity: 1;
+}
+.abHaed .coffee-beans span::after {
+  content: "";
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  width: 2px;
+  height: 80%;
+  background: rgba(0, 0, 0, 0.25);
+  transform: translateX(-50%);
+}
+.abHaed .coffee-beans span:nth-child(1) {
+  left: 10%;
+  animation-duration: 10s;
+  transform: scale(0.8);
+}
+.abHaed .coffee-beans span:nth-child(2) {
+  left: 30%;
+  animation-duration: 14s;
+  transform: scale(1);
+}
+.abHaed .coffee-beans span:nth-child(3) {
+  left: 55%;
+  animation-duration: 12s;
+  transform: scale(0.7);
+}
+.abHaed .coffee-beans span:nth-child(4) {
+  left: 75%;
+  animation-duration: 16s;
+  transform: scale(1.1);
+}
+.abHaed .coffee-beans span:nth-child(5) {
+  left: 90%;
+  animation-duration: 18s;
+  transform: scale(0.6);
+}
+
+/* Animation */
+@keyframes floatBeans {
+  0% {
+    bottom: -50px;
+    transform: translateX(0) rotate(0deg);
+  }
+  50% {
+    transform: translateX(20px) rotate(180deg);
+  }
+  100% {
+    bottom: 110%;
+    transform: translateX(-20px) rotate(360deg);
+  }
+}
+nav {
+  position: relative;
+}
+
+.newyear-lights {
+  position: absolute;
+  top: 64px;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  pointer-events: none;
+  z-index: 10;
+}
+.newyear-lights span {
+  width: 14px;
+  height: 14px;
+  margin-top: 10px;
+  border-radius: 10% 60% 10% 60%;
+  transform: rotateZ(30deg);
+  animation: blink 2s infinite ease-in-out;
+  box-shadow: 0 0 12px currentColor;
+}
+.newyear-lights span:nth-child(1) {
+  background: #ffd93d;
+  animation-delay: 0.3s;
+}
+.newyear-lights span:nth-child(2) {
+  background: #4dd2ff;
+  animation-delay: 0.6s;
+}
+.newyear-lights span:nth-child(3) {
+  background: #7dff4d;
+  animation-delay: 0.9s;
+}
+.newyear-lights span:nth-child(4) {
+  background: #b84dff;
+  animation-delay: 1.2s;
+}
+.newyear-lights span:nth-child(5) {
+  background: #ff4d4d;
+  animation-delay: 1.5s;
+}
+.newyear-lights span:nth-child(6) {
+  background: #ffd93d;
+  animation-delay: 1.8s;
+}
+.newyear-lights span:nth-child(7) {
+  background: #4dd2ff;
+  animation-delay: 2.1s;
+}
+.newyear-lights span:nth-child(8) {
+  background: #7dff4d;
+  animation-delay: 2.4s;
+}
+.newyear-lights span:nth-child(9) {
+  background: #b84dff;
+  animation-delay: 2.7s;
+}
+.newyear-lights span:nth-child(10) {
+  background: #ff4d4d;
+  animation-delay: 3s;
+}
+.newyear-lights span:nth-child(11) {
+  background: #ffd93d;
+  animation-delay: 3.3s;
+}
+.newyear-lights span:nth-child(12) {
+  background: #4dd2ff;
+  animation-delay: 3.6s;
+}
+.newyear-lights span:nth-child(13) {
+  background: #7dff4d;
+  animation-delay: 3.9s;
+}
+.newyear-lights span:nth-child(14) {
+  background: #b84dff;
+  animation-delay: 4.2s;
+}
+.newyear-lights span:nth-child(15) {
+  background: #ff4d4d;
+  animation-delay: 4.5s;
+}
+.newyear-lights span:nth-child(16) {
+  background: #ffd93d;
+  animation-delay: 4.8s;
+}
+
+/* Cable effect */
+.newyear-lights::before {
+  content: "";
+  position: absolute;
+  top: 6px;
+  left: 0;
+  width: 100%;
+  border-radius: 30px;
+  height: 2px;
+  background: rgb(0, 0, 0);
+}
+
+/* Animation */
+@keyframes blink {
+  0%, 100% {
+    opacity: 0.4;
+    transform: scale(0.9);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.1);
+  }
 }/*# sourceMappingURL=style.css.map */
