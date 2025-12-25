@@ -827,3 +827,118 @@ $text: #555;
     }
   }
 }
+
+
+
+$primary: #6f3d1c;
+$secondary: #f7c57a;
+$bg: white;
+$text: #555;
+
+.container1 {
+  // max-width: 1200px;
+  width: 100%;
+  margin: auto;
+  padding: 60px 20px;
+  text-align: center;
+  background-color: white;
+}
+
+.title {
+  font-family:'Times New Roman', Times, serif;
+  font-size: 57px;
+  color: $primary;
+  margin-bottom: 15px;
+}
+
+.subtitle {
+  font-size: 20px;
+  font-weight: 100;
+  max-width: 600px;
+  margin: 0 auto 50px;
+  font-family: 'Times New Roman', Times, serif;
+
+}
+
+.coffee-grid-2 {
+display: flex;
+justify-content: space-evenly;
+  background-color: white;
+  font-family: 'Times New Roman', Times, serif;
+  gap: 20px;
+}
+
+.coffee-card-2 {
+  background: #f1d3a55f;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 30px;
+  // border-radius: 12px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  // overflow: hidden;
+  font-family: 'Times New Roman', Times, serif;
+  width: 290px;
+  height: 300px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+  transition: transform .3s ease;
+
+  &:hover {
+    transform: translateY(-8px);
+  }
+
+  img {
+    width: 100px;
+    height: 100px;
+    // object-fit: cover;
+    
+  }
+
+  .card-content {
+    padding: 25px;
+
+
+    h3 {
+        font-family: 'Times New Roman', Times, serif;
+
+      color: $primary;
+      font-size: 27px;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 19px;
+  font-family: 'Times New Roman', Times, serif;
+  column-rule: #1e1e1e63;
+font-weight: 100;
+      margin-bottom: 12px;
+    }
+
+    .price {
+      display: block;
+      font-weight: 600;
+      font-size: 18px;
+      color: $primary;
+  font-family: 'Times New Roman', Times, serif;
+
+      margin-bottom: 18px;
+    }
+
+    button {
+      border: none;
+      padding: 12px 28px;
+      border-radius: 30px;
+      background: $secondary;
+      color: #000;
+      font-weight: 500;
+      cursor: pointer;
+      transition: background .3s;
+
+      &:hover {
+        background: darken($secondary, 10%);
+      }
+    }
+  }
+}
