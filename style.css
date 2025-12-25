@@ -173,7 +173,6 @@ footer {
   background-color: var(--footer-bg-color);
   color: var(--footer-text-color);
   padding: 40px 0;
-  margin-top: 20px;
 }
 footer a {
   color: var(--footer-text-color);
