@@ -746,4 +746,96 @@ nav {
 }
 .coffee-card .card-content button:hover {
   background: rgb(244.1063829787, 176.0212765957, 73.8936170213);
+}
+
+.container1 {
+  width: 100%;
+  margin: auto;
+  padding: 60px 20px;
+  text-align: center;
+  background-color: white;
+}
+
+.title {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 57px;
+  color: #6f3d1c;
+  margin-bottom: 15px;
+}
+
+.subtitle {
+  font-size: 20px;
+  font-weight: 100;
+  max-width: 600px;
+  margin: 0 auto 50px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.coffee-grid-2 {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: white;
+  font-family: "Times New Roman", Times, serif;
+  gap: 20px;
+}
+
+.coffee-card-2 {
+  background: rgba(241, 211, 165, 0.3725490196);
+  align-items: center;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 30px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  font-family: "Times New Roman", Times, serif;
+  width: 290px;
+  height: 300px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+}
+.coffee-card-2:hover {
+  transform: translateY(-8px);
+}
+.coffee-card-2 img {
+  width: 100px;
+  height: 100px;
+}
+.coffee-card-2 .card-content {
+  padding: 25px;
+}
+.coffee-card-2 .card-content h3 {
+  font-family: "Times New Roman", Times, serif;
+  color: #6f3d1c;
+  font-size: 27px;
+  margin-bottom: 10px;
+}
+.coffee-card-2 .card-content p {
+  font-size: 19px;
+  font-family: "Times New Roman", Times, serif;
+  -moz-column-rule: rgba(30, 30, 30, 0.3882352941);
+       column-rule: rgba(30, 30, 30, 0.3882352941);
+  font-weight: 100;
+  margin-bottom: 12px;
+}
+.coffee-card-2 .card-content .price {
+  display: block;
+  font-weight: 600;
+  font-size: 18px;
+  color: #6f3d1c;
+  font-family: "Times New Roman", Times, serif;
+  margin-bottom: 18px;
+}
+.coffee-card-2 .card-content button {
+  border: none;
+  padding: 12px 28px;
+  border-radius: 30px;
+  background: #f7c57a;
+  color: #000;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+.coffee-card-2 .card-content button:hover {
+  background: rgb(244.1063829787, 176.0212765957, 73.8936170213);
 }/*# sourceMappingURL=style.css.map */
