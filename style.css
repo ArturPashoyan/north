@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Clicker+Script&family=Days+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -580,4 +581,169 @@ nav {
     opacity: 1;
     transform: scale(1.1);
   }
+}
+.one_block {
+  background-image: url(./imgHome/coffee_image.png);
+  background-size: auto;
+  color: white;
+  height: 650px;
+}
+.one_block .one_div {
+  display: flex;
+  padding-top: 60px;
+  padding-left: 3%;
+  width: 40%;
+  flex-direction: column;
+}
+.one_block .one_div h2 {
+  font-size: 25px;
+  font-family: "Times New Roman", Times, serif;
+}
+.one_block .one_div .coffe {
+  font-size: 250px;
+  font-family: "Clicker Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.one_block .one_div p {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25px;
+}
+.one_block .one_div button {
+  width: 150px;
+  height: 50px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 19px;
+  border-radius: 40px;
+  background-color: #F9C06A;
+  border: none;
+  color: #1E1E1E;
+  box-shadow: 0px 0px 10px 2px #ffd93d;
+}
+
+.one_block_2 {
+  background-color: white;
+  background-size: auto;
+  color: white;
+  height: 550px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.one_block_2 .one_div_2 {
+  display: flex;
+  padding-top: 70px;
+  padding-left: 3%;
+  width: 50%;
+  flex-direction: column;
+}
+.one_block_2 .one_div_2 h2 {
+  font-size: 55px;
+  font-family: "Times New Roman", Times, serif;
+  color: #603809;
+  font-weight: 600;
+}
+.one_block_2 .one_div_2 p {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #707070;
+  font-size: 20px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+.one_block_2 .one_div_2 button {
+  width: 150px;
+  height: 50px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 19px;
+  border-radius: 40px;
+  background-color: #F9C06A;
+  border: none;
+  color: #1E1E1E;
+}
+
+.container1 {
+  width: 100%;
+  margin: auto;
+  padding: 60px 20px;
+  text-align: center;
+  background-color: white;
+}
+
+.title {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 48px;
+  color: #6f3d1c;
+  margin-bottom: 15px;
+}
+
+.subtitle {
+  font-size: 16px;
+  max-width: 600px;
+  margin: 0 auto 50px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.coffee-grid {
+  display: grid;
+  background-color: white;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  font-family: "Times New Roman", Times, serif;
+  gap: 20px;
+}
+
+.coffee-card {
+  background: rgba(224, 189, 136, 0.1803921569);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  font-family: "Times New Roman", Times, serif;
+  width: 290px;
+  height: 400px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+}
+.coffee-card:hover {
+  transform: translateY(-8px);
+}
+.coffee-card img {
+  width: 100%;
+  height: 230px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.coffee-card .card-content {
+  padding: 25px;
+}
+.coffee-card .card-content h3 {
+  font-family: "Times New Roman", Times, serif;
+  color: #6f3d1c;
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+.coffee-card .card-content p {
+  font-size: 14px;
+  font-family: "Times New Roman", Times, serif;
+  margin-bottom: 12px;
+}
+.coffee-card .card-content .price {
+  display: block;
+  font-weight: 600;
+  font-size: 18px;
+  color: #6f3d1c;
+  font-family: "Times New Roman", Times, serif;
+  margin-bottom: 18px;
+}
+.coffee-card .card-content button {
+  border: none;
+  padding: 12px 28px;
+  border-radius: 30px;
+  background: #f7c57a;
+  color: #000;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+.coffee-card .card-content button:hover {
+  background: rgb(244.1063829787, 176.0212765957, 73.8936170213);
 }/*# sourceMappingURL=style.css.map */
