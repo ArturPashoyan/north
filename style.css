@@ -838,4 +838,118 @@ nav {
 }
 .coffee-card-2 .card-content button:hover {
   background: rgb(244.1063829787, 176.0212765957, 73.8936170213);
+}
+
+.one_block_3 {
+  background-image: url(./imgHome/coffeBg.png);
+  overflow: hidden;
+  background-size: auto;
+  color: white;
+  height: 500px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.one_block_3 .one_div_img_3 img {
+  width: 500px;
+  height: 500px;
+  margin-top: -340px;
+  opacity: 1;
+  margin-left: 63%;
+}
+.one_block_3 .one_div_img_3 .coofebajak img {
+  width: 300px;
+  height: 450px;
+  margin-top: -450px;
+  margin-left: 69%;
+  opacity: 1;
+}
+.one_block_3 .one_div_3 {
+  display: flex;
+  padding-top: 70px;
+  padding-left: 3%;
+  width: 50%;
+  flex-direction: column;
+}
+.one_block_3 .one_div_3 h2 {
+  font-size: 55px;
+  font-family: "Times New Roman", Times, serif;
+  color: #ffffff;
+  font-weight: 600;
+}
+.one_block_3 .one_div_3 p {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #ffffff;
+  font-size: 20px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+.one_block_3 .one_div_3 button {
+  width: 150px;
+  height: 50px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 19px;
+  border-radius: 40px;
+  background-color: #F9C06A;
+  border: none;
+  color: #1E1E1E;
+  box-shadow: 0px 0px 10px 2px #ffd93d;
+}
+
+.subscribe-section {
+  height: 60vh;
+  background: url("./imgHome/9344745.jpg");
+  background-size: contain;
+  font-family: "Georgia", serif;
+}
+.subscribe-section .overlay {
+  height: 100%;
+  background: rgba(92, 60, 30, 0.75);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+}
+.subscribe-section .content {
+  max-width: 720px;
+  color: #fff;
+}
+.subscribe-section .content h2 {
+  font-size: 62px;
+  font-family: "Times New Roman", Times, serif;
+  margin-bottom: 15px;
+}
+.subscribe-section .content p {
+  font-size: 20px;
+  opacity: 0.9;
+  font-family: "Times New Roman", Times, serif;
+  margin-bottom: 30px;
+}
+.subscribe-section .subscribe-form {
+  display: flex;
+  justify-content: center;
+}
+.subscribe-section .subscribe-form input {
+  width: 380px;
+  padding: 15px 20px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  border-radius: 4px 0 0 4px;
+}
+.subscribe-section .subscribe-form button {
+  padding: 15px 30px;
+  border: none;
+  background: #f3b562;
+  color: #5c3c1e;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 0 4px 4px 0;
+  transition: 0.3s;
+}
+.subscribe-section .subscribe-form button:hover {
+  background: #e2a44f;
 }/*# sourceMappingURL=style.css.map */
